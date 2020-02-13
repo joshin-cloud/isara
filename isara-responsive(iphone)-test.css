@@ -1,0 +1,921 @@
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  body{
+    width: 100%;
+  }
+  
+   header .btn{
+display: none; /*緑色*/
+}
+  
+  header{
+    position: relative; 
+  }
+  
+  .header-inner{
+    height: 65px;
+  }
+  
+  .header-icon img{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    height: 35px;
+    width: 90px;
+  }
+  
+  .header-left p{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    letter-spacing: none;
+    font-size: 10px;
+    margin-top: 0;
+  }
+  
+  .inquire-icon{
+    display:block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 85px;
+    text-align: center;
+  }
+  
+  .inquire-icon img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  
+  .inquire-icon figcaption{
+    text-align: center;
+    width: 100%;
+  }
+  
+  .inquire-icon a{
+    color: #fff;
+  }
+  
+  .scrollup-modal{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 80%;
+    right: 20px;
+  }
+  
+  .scrollup{
+    border: solid;
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    margin: auto;
+    width: 13px;
+    height: 13px;
+    border: solid transparent;
+    border-top: solid 5px black;
+    border-left: solid 5px black;
+    transform: rotate(45deg);
+  }
+
+  .front{
+    height: 320px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-image: url(portfolio/isara/mainsp.jpg);
+    margin-top: 65px;
+  }
+  
+  .front h1{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .front h4{
+    font-size: 13px;
+    font-weight: bold;
+    background-size: cover;
+  }
+  
+  .contact-btn ul li{
+    width: 75px;
+    margin: 0 5px;
+  }
+  
+  .contact-btn ul li a{
+    font-size: 12px;
+  }
+  
+  .contact-wrapper{
+    padding: 35px 5px;
+  }
+  
+  .contact-form-btn{
+    width: 100%;
+  }
+  
+  .contact-form-btn p{
+    height: 90px;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0px;
+  }
+  
+  .contact-form-txt{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .explanation{
+    background-image: url(portfolio/isara/introbottom-2.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+  }
+  
+  .explanation h3{
+    font-size: 20px;
+  }
+  
+  .explanation-section-title-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    background: none;
+  }
+  
+  .section-title h3:before{
+    width: 30px;
+    height: 30px;
+    top: -40%;
+    left: 10px;
+    border: solid 6px transparent;
+    border-top: solid 6px #ebb94d;
+    border-left: solid 6px #ebb94d;
+}
+
+.section-title h3:after{
+    right: 10px;
+    bottom: -30%;
+    width: 30px;
+    height: 30px;
+    border: solid 6px transparent;
+    border-bottom: solid 6px #ebb94d;
+    border-right: solid 6px #ebb94d;
+}
+  
+.explanation-text p{
+    font-size: 18px;
+  }
+  
+.br::before {
+	content: "\A" ;
+	white-space: pre ;
+}
+  
+  
+  .about-icon{
+    height: 60px;
+    width: 60px;
+  }
+  
+  .about-icon p{
+    line-height: 60px;
+    font-weight: normal;
+  }
+  
+  .about h3{
+    font-size: 20px
+  }
+  
+  .about-title{
+    line-height: 50px;
+  }
+  
+  .about p{
+    font-size: 18px;
+  }
+  
+  .about-list{
+    margin: 0 20px;
+    padding: 10px 0 10px 0;
+  }
+  
+  .about-list p{
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .about-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-list li{
+    width: 120px;
+  }
+  
+  
+  .about-list img{
+    height: 40px;
+    width: 40px;
+  }
+  
+  .about-list5 img{
+    width: 80px;
+    height: 40px;
+  }
+  
+  .about-list figcaption{
+    font-size: 11px;
+    margin-bottom: 20px
+  }
+  
+  .top-part{
+    padding: 50px 30px 35px 30px;
+  }
+  
+  .top-part h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .top-part p{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .top-part ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .step ul li{
+    margin: 0;
+  }
+  
+  .top-part li{
+    width: 100%;
+  }
+  
+  .step-list{
+    height: 110px;
+    padding: 15px 50px;
+    width: 100%;
+    margin-bottom: 12px;
+    margin-top: 0px;
+  }
+  
+  .step-num{
+    margin-bottom: 10px; 
+  }
+  
+  .step-list p{
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  
+  .step-txt br{
+    margin: 3px;
+  }
+  
+  .bottom-part{
+    height: 100px;
+    padding: 25px 20px;
+  }
+  
+  .bottom-part p{
+    font-size: 13px;
+  }
+  
+  .learn{
+    height: 300px;
+    padding: 50px 0 30px 0;
+  }
+  
+  .learn h4{
+    margin-bottom: 45px;
+  }
+  
+  .learn p{
+    font-weight: normal;
+  }
+  
+  .learn ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .learn ul li img{
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+  }
+  .learn p{
+    margin-top: 0;
+  } 
+  
+  .melit{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+  
+  .melit h3{
+    font-size: 16px;
+    line-height: 40px;
+  }
+  
+  .big-scale{
+    font-size: 20px;
+  }
+  
+  .melit-list ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 15px;
+  }
+  
+  .melit-list ul li{
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .melit-list img{
+    width: 100%;
+    height: 120px;
+  }
+  
+  .melit-list figcaption{
+    text-align: center;
+    margin: 13px 0;
+  }
+  
+  .melit-list p{
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  .melit-item{
+    border-radius: 5px; 
+    margin: 35px 20px 20px 20px;
+    padding: 15px 10px 20px 10px;
+  }
+  
+  .melit-item h1{
+    font-size: 20px;
+  }
+  
+  .melit-item h4{
+    font-size: 16px;
+  }
+  
+  .melit-item p{
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  
+  .melit-item br{
+    display: none;
+  }
+  
+  .melit-fotter{
+    margin-top: 0;
+  }
+  
+  .melit-fotter p{
+    font-size: 12px;
+  }
+  
+  .melit-fotter br{
+    display: none;
+  }
+  
+  .member{
+    background-image: url(portfolio/isara/teacherbgsp.jpg);
+    background-size: auto;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+  }
+  
+  .member h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .member p{
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  
+  .member-list{
+    padding-bottom: 0;
+  }
+  
+  .members{
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+  
+  .members-icon img{
+    height: 120px;
+    width: 120px;
+  }
+  
+  .members-intro{
+    padding: 0;
+    height: auto;
+    margin-top: 0; 
+  }
+  
+  .members-intro p{
+    font-size: 14px;
+  }
+  
+  .member-txt{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  
+  .question{
+    padding: 0;
+  }
+  
+  .question-section-title{
+    height: auto;
+    padding-bottom: 40px; 
+  }
+
+  .question-section-title h3{
+    font-size: 16px;
+  }
+  
+  .question-section-title h3:before{
+    left: 4%;
+    width: 30px;
+    height: 30px;
+}
+
+.question-section-title h3:after{
+    right: 5%;
+    width: 30px;
+    height: 30px;
+}
+  
+  .question-front br{
+    display: none;
+  }
+  
+  .question-front p{
+    font-size: 13px; 
+  }
+  
+  .company-opinion{
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .company-opinion p{
+    font-size: 17px;
+  }
+  
+  .company-image{
+    margin-right: 5px;
+  }
+  
+  .company-image img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .company-text{
+    width: 100%;
+  }
+  
+  .company-name{
+    font-size: 15px;
+  }
+  
+  .learning-content h4{
+    font-size: 20px;
+  }
+  
+  .content-top-part p{
+    font-size: 13px;
+  }
+  
+  .content-things{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;;
+    margin-top: 30px;
+  }
+  
+  .before-abroad{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  
+  .before-abroad ul li{
+    width: 100%;
+  }
+  
+  .before-abroad p{
+    font-size: 14px;
+  }
+  
+  .while-staying{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .while-staying ul li{
+    width: 100%;
+  }
+  
+  .content-footer-part{
+    padding: 20px 5px;
+  }
+  
+  .process{
+    padding: 0 10px;
+  }
+  
+  .process-title p{
+    font-size: 22px;
+    margin-top: 25px;
+  }
+  
+  .process-image img{
+    display: none;  
+  }
+  
+  .process-list{
+    display: none;
+  }
+  
+  .process-list-responsive{
+    display: block;
+  }
+  
+.process-list-responsive ul{
+  list-style: none;
+}
+
+.process-wrap-responsive-top{
+  padding: 10px;
+  position: relative;
+  margin-top: 5px;
+  display: flex;
+  cursor: pointer;
+  background-color: #fef5e0;
+}
+
+
+.process-wrap-responsive-top img{
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  }
+  
+.process-wrap-responsive-top h4{
+  color: black;
+  margin-right: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  margin: auto 0;
+  margin-left: 5px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.arrow{
+    display: block;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    border: solid transparent;
+    border-top: solid 5px black;
+    border-left: solid 5px black;
+    transform: rotate(225deg);
+    opacity: 1.0;
+}
+
+.process-wrap-responsive-bottom{
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  display: none;
+  background-color: #fef5e0;
+}
+
+  .process-wrap-responsive-bottom h3{
+    font-size: 13px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .process-wrap-responsive-bottom p{
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .reason{
+    padding: 40px 35px 35px 35px;
+    background-image: url(portfolio/isara/bangkokbgsp.jpg);
+    background-size: cover;
+  }
+  
+  .reason h1{
+    text-align: center;
+  }
+  
+  .reason h4{
+    font-size: 15px;
+  }
+  
+  .reason p{
+    font-size: 15px
+  }
+  
+  .reason h3{
+    font-size: 17px;
+  }
+  
+  .special-top{
+    padding: 30px 15px 20px 15px;
+  }
+  
+  .special-title{
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .special-title p{
+    font-size: 19px;
+    margin: 0;
+  }
+  
+  .special-top-text{
+    font-size: 15px
+  }
+  
+  .special-list{
+    padding: 10px 30px 50px 30px;
+  }
+  
+  .special-list-title{
+    margin: 0;
+    width: 80%;
+    top: -15%;
+  }
+  
+  .special-list-title p{
+    font-size: 18px;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .special-list ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .special-list ul li{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0;
+    margin: 0;
+    height: 80px;
+    margin-top: 30px;
+  }
+  
+  .special-content{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .special-content h1{
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin: 0;
+    margin-right: 10px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+  }
+  
+  .special-content p{
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .special-footer{
+    padding: 45px 10px 60px 10px;
+  }
+  
+  .special-footer h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .special-footer br{
+    display: none;
+  }
+  
+  .special-footer p{
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .special-section-title{
+    margin: 40px 0;
+  }
+  
+  .special-section-title h3{
+    font-size: 20px;
+  }
+  
+  .special-section-title h3:before{
+  content: "";
+    display: block;
+    position: absolute;
+    top: -20%;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    border: solid 8px transparent;
+    border-top: solid 6px #fff;
+    border-left: solid 5px #fff;
+}
+
+.special-section-title h3:after{
+  content: "";
+    display: block;
+    position: absolute;
+    right: 0%;
+    bottom: -30%;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    border: solid 8px transparent;
+    border-bottom: solid 6px #fff;
+    border-right: solid 5px #fff;
+}
+  
+  .message{
+    padding: 50px 20px;
+  }
+  
+  .message h3{
+    margin-bottom: 45px;
+    font-size: 20px;
+  }
+  
+  .message h4{
+    margin-bottom: 20px;
+  }
+  
+  .message-content{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-image img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content-text h1{
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  
+  .content-text h2{
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .content-text ul{ 
+    margin-bottom: 35px;
+    list-style: none;
+  }
+  
+  .content-text ul li{
+    font-size: 16px;
+  }
+  
+  .content-text h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .content-text p{
+    font-size: 16px;
+  }
+  
+  #form{
+    padding: 50px 15px;
+  }
+  
+  .form-title p{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .form-list{
+    width: 100%;
+  }
+  
+  .form-btn p{
+    height: 55px;
+    line-height: 25px;
+  }
+  
+  .inquiry{
+    padding: 50px 15px 40px 15px;
+  }
+  
+  .inquiry-title{
+    margin: 0;
+  }
+  
+  .inquiry-title p{
+    margin-bottom: 25px;
+  }
+  
+  .inquiry-list{
+    margin: 0;
+  }
+  
+  
+  .problem{
+    padding: 10px;
+  }
+  
+  
+  .problem h4{
+    font-size: 13px;
+    margin: auto 0;
+    margin-right: 20px;
+    width: 90%;
+  }
+
+  .footer-wrapper p{
+    font-size: 13px;
+  }
+  
+  .scrollup-modal{
+  background-color: #ececec;
+  position: fixed;
+  top: 85%;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  cursor: pointer;
+  display: none;
+}
+}
